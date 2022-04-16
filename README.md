@@ -4,7 +4,11 @@
 or 
 
 `git clone https://github.com/vanhauser-thc/thc-hydra.git`
+
 `cd thc-hydra`
+
 `./configure`
+
 `make`
+
 `make install`
